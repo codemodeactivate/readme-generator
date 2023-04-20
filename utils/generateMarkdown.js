@@ -8,7 +8,7 @@ function renderLicenseBadge(license) {
     return ``;
   } else {
    const encodedLicense = encodeURI(license); // URL-encode the license name
-   return `[![${license}license](https://img.shields.io/badge/License-${encodedLicense}-blue)](${renderLicenseLink(license)})`;
+   return `[![${license}license](https://img.shields.io/badge/License-${encodedLicense})](${renderLicenseLink(license)})`;
   }
 
   //https://img.shields.io/badge/License-$license-blue
@@ -110,10 +110,17 @@ function generateMarkdown(data) {
   ${renderLicenseBadge(data.license)}
   ## Table of Contents
   * [Description](#Description)
+  * [Installation](#Installation)
+  * [Usage](#Usage)
+  * [Contribute](#Contribute)
+  * [Test Instructions](#Test-Instructions)
+  * [License](#License)
+  * [Questions](#Questions)
+  * [Future Development](#Future-Development)
+  * [Credits](#Credits)
+
   ## Description
   ${data.description}
-
-
   ## Installation
   ${data.installation}
   ## Usage
@@ -125,7 +132,11 @@ function generateMarkdown(data) {
   ## License
   ${renderLicenseLink(data.license)}
   ${renderLicenseSection(data.license)}
+
   ## Questions
+
+  If you have any questions, please contact me at ${data.email}.
+
   ## Future Development
 
   ## Credits
