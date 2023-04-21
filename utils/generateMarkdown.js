@@ -8,7 +8,7 @@ function renderLicenseBadge(license) {
     return ``;
   } else {
    const encodedLicense = encodeURI(license); // URL-encode the license name
-   return `[![${license}license](https://img.shields.io/badge/License-${encodedLicense})](${renderLicenseLink(license)})`;
+   return `[![${license}license](https://img.shields.io/badge/License-${encodedLicense}-blue)](${renderLicenseLink(license)})`;
   }
 
   //https://img.shields.io/badge/License-$license-blue
@@ -30,8 +30,6 @@ function renderLicenseLink(license) {
       return 'https://choosealicense.com/licenses/bsd-2-clause/'
     case 'BSD 3-clause "New" or "Revised" license':
       return 'https://choosealicense.com/licenses/bsd-3-clause/'
-    case 'BSD 3-clause Clear license':
-      return 'https://spdx.org/licenses/BSD-3-Clause-Clear.html'
     case 'Creative Commons license family':
       return 'https://creativecommons.org/licenses/'
     case 'Create Commons Zero v1.0 Universal':
@@ -131,15 +129,15 @@ function generateMarkdown(data) {
   ${data.tests}
   ## License
   ${renderLicenseLink(data.license)}
+
   ${renderLicenseSection(data.license)}
 
   ## Questions
-
-  If you have any questions, please contact me at ${data.email}.
-
+  If you have any questions, please contact me at ${data.email}. You can also find me on GitHub at [${data.username}](https://github.com/${data.username}).
   ## Future Development
-
+  ${data.development}
   ## Credits
+  ${data.credits}
 
 
 `;
