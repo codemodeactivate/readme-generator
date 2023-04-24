@@ -11,7 +11,8 @@ A command line interface questionnaire written in node that makes use of the inq
 6. Enjoy!
 
 ## Demo
-[![Demo](#)](https://drive.google.com/file/d/1fDRAHVgUXM2tvDKzKwf1qut8qN5uQRGj/view)
+[![Demo Video](https://drive.google.com/uc?export=download&id=1fDRAHVgUXM2tvDKzKwf1qut8qN5uQRGj)](https://drive.google.com/file/d/1fDRAHVgUXM2tvDKzKwf1qut8qN5uQRGj/view)
+
 
 ## Credits
 Screencastify, Node.JS, Inquirer, GitHub, GitBash, VS Code
