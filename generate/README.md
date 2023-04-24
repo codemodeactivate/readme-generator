@@ -1,6 +1,6 @@
 
-  # kldfjldskfjdskl
-  [![[44m[1mSIL Open Font License 1.1[0mlicense](https://img.shields.io/badge/License-%1B%5B44m%1B%5B1mSIL%20Open%20Font%20License%201.1%1B%5B0m-blue)](undefined)
+  # This is a project name!
+  [![GNU Affero General Public License v3.0license](https://img.shields.io/badge/License-GNU%20Affero%20General%20Public%20License%20v3.0-blue)](https://www.gnu.org/licenses/agpl-3.0.en.html)
   ## Table of Contents
   * [Description](#Description)
   * [Installation](#Installation)
@@ -13,25 +13,25 @@
   * [Credits](#Credits)
 
   ## Description
-  sdlfksdjflksdjf
+  description of project goes here
   ## Installation
-  ddd
+  npm i install go!
   ## Usage
-  d
+  use this however you please. If you enjoy send me feedback :) 
   ## Contribute
-  d
+  fork it, pull it, bop it
   ## Test Instructions
-  d
+  you can test it on your own if you'd like
   ## License
-  undefined
+  https://www.gnu.org/licenses/agpl-3.0.en.html
 
-  [![[44m[1mSIL Open Font License 1.1[0mlicense](https://img.shields.io/badge/License-%1B%5B44m%1B%5B1mSIL%20Open%20Font%20License%201.1%1B%5B0m-blue)](undefined)
+  [![GNU Affero General Public License v3.0license](https://img.shields.io/badge/License-GNU%20Affero%20General%20Public%20License%20v3.0-blue)](https://www.gnu.org/licenses/agpl-3.0.en.html)
 
   ## Questions
-  If you have any questions, please contact me at owowow. You can also find me on GitHub at [fdsfkjdsflk](https://github.com/fdsfkjdsflk).
+  If you have any questions, please contact me at jeff.zenko@gmail.com. You can also find me on GitHub at [codemodeactivate](https://github.com/codemodeactivate).
   ## Future Development
-  jfjfjfj
+  There's some error handling I'd like to add.
   ## Credits
-  [vvkkks
+  n/a
 
 
